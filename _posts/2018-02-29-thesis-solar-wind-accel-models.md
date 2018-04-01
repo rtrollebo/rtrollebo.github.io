@@ -2,7 +2,7 @@
 layout: post 
 title: "Review and Test of Funnel Shape Geometries in Solar Wind Acceleration"
 date: 2018-02-28 20:55
-abst: "A test of a time dependent reconnection geometry."
+abst: "A test of a time dependent reconnection geometry model."
 categories: solar-physics plasma-physics 
 
 ---
