@@ -11,5 +11,4 @@ permalink: /repositories/
 
 # Source Code Repositories
 
-* [geo-demo](http://www.github.com/rtrollebo/geo-demo)
 * [bibmanagerpy](http://www.github.com/rtrollebo/bibmanagerpy)
