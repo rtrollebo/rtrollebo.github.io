@@ -2,10 +2,12 @@
 layout: post 
 title: "Heating of the Solar Corona"
 date: 2018-03-18
+date_updated: 2018-05-31
 abst: "In solar physics we are seeing greater opportunities than ever in constraining the models with better observational data and in answering major scientific questions such as the 'coronal heating problem' "
 categories: solar-physics plasma-physics plasma-waves
 
 ---
+
 
 In the field of solar physics, the energy budget of the solar
 atmosphere has not yet been fully understood. The coronal temperature
@@ -37,7 +39,9 @@ instruments (e.g. SUMER, EIS) did not have the resolving capability to
 observe the highly dynamic features of the solar atmosphere. For
 example, many small-scale changes in the magnetic field (such as
 re-connection) occur too fast to be detectable by former instrumental
-configurations. However, with the introduction of the solar
-observation satellite IRIS (De Pontieu (2014)), its spectrograph
-delivers data with higher spatial and temporal resolution than ever
-before.
+configurations. However, since the Interface Region Imaging
+Spectrograph (IRIS, De Pontieu (2014)) became operational in late
+2013, its spectrograph has delivered data with higher spatial and
+temporal resolution than ever before.
+
+
