@@ -2,7 +2,7 @@
 layout: post 
 title: "Solar Explorations"
 date: 2018-05-31
-date_updated: 2018-06-30
+date_updated: 2018-08-06
 abst: "The best way to study an object in nature is by utilizing a number of independent observational and instrumental techniques. This is true when studying the sun as well."
 categories: solar-physics space-exploration
 
@@ -18,10 +18,23 @@ In the case of the sun, most of our observational data has been obtained from sa
 Furthermore, from properties of light, we have also been able to measure the magnetic fields in the photosphere by using techniques such as Stokes polarimetry. And with upcoming missions, additional instruments will be used to obtain a more complete understanding of the physics of the sun. 
 
 
+
+
 # Upcoming Solar Missions
 
 
 ## Parker Solar Probe
+
+### Key Mission Data
+
+|                         |                                 | 
+:------------------------ | :------------------------------ | 
+Mission and target        | Study the conditions for the acceleration of the solar wind |
+Launch Date               | August 11 – 23, 2018            | 
+Launch Vehicle            | Delta IV-Heavy with Upper Stage |
+Payload instruments       | FIELDS; ISIS; WISPR; SWEAP; |
+
+### Mission Description
 
 For the first time, a solar probe will be launched in august 2018. And once it reaches its target in 2024, it will be the first ever probe to fly through the outer solar corona (at a distance of 8 solar radii), providing in-situ measurements of particle energies and plasma properties. The probe is named Parker Solar Probe (Fox et al. (2015)), and its scientific mission is to
 

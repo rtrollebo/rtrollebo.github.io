@@ -1,3 +1,7 @@
+- edition: e2018-08
+  frontmatter: Parker Solar Probe Mission Data
+  changes: Key Mission Data 
+
 - edition: e2018-07
   frontmatter: Parker Solar Probe
   changes: A solar exploration mission will provide in-situ measurements of the solar corona. 
