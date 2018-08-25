@@ -15,9 +15,9 @@ exclude_from_menu: true
 # Editions
 
 {% for edition in site.data.editions %}
-* {{ edition.edition }} 
+* {{ edition.edition }}: **{{edition.frontmatter}}**. 
 
-    **{{edition.frontmatter}}**: {{ edition.changes }}
+    {{ edition.changes }}
       
 {% endfor %}
 

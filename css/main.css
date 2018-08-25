@@ -200,6 +200,10 @@ a:visited { color: #205caa; }
   margin: 40px 0 20px;
 }
 
+.post-content b {
+  color: #686868;
+}
+
 .post-content h1 {
   font-size: 32px;
   letter-spacing: -1.25px;
