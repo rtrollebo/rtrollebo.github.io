@@ -1,3 +1,7 @@
+- edition: e2018-09
+  frontmatter: Design Patterns and Aspects of Kotlin
+  changes: A new note covering some of the fascinating language features of the Kotlin programming language, and how these features simplifies some well known design practises.  
+
 - edition: e2018-08
   frontmatter: Parker Solar Probe Mission Data
   changes: Key Mission Data 
