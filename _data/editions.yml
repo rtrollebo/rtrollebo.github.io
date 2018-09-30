@@ -1,3 +1,7 @@
+- edition: e2018-10
+  frontmatter: Design Patterns and Aspects of Kotlin
+  changes: Additions to featured note.
+
 - edition: e2018-09
   frontmatter: Design Patterns and Aspects of Kotlin
   changes: A new note covering some of the fascinating language features of the Kotlin programming language, and how these features simplifies some well known design practises.  

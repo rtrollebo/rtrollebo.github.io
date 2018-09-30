@@ -2,7 +2,7 @@
 layout: post 
 title: "Design Patterns and Aspects of Kotlin"
 date: 2018-08-25
-date_updated: 2018-08-29
+date_updated: 2018-09-30
 abst: "Some design patterns are easier to implement in Kotlin than in other languages."
 categories: design-patterns computer-science kotlin
 
@@ -10,13 +10,13 @@ categories: design-patterns computer-science kotlin
 
 # The Kotlin programming language
 
-The [Kotlin programming language](http://kotlinlang.org) is a statically typed language with strong emphasis on functional programming. Designed to run on the Java Virtual Machine (JVM), Kotlin inherits the architecture (near-)independent advantages from Java. 
+The [Kotlin programming language](http://kotlinlang.org) is a statically typed language with a functional programming style. Designed to run on the Java Virtual Machine (JVM), Kotlin inherits the architecture (near-)independent advantages from Java. 
 
-The evolution of programming languages is related to the evolution of development culture, practices, design principles, the software industry and theory in computer science. Kotlin is a relatively new language, and since it was designed by JetBrains in 2011 it has gained widespread adoption. Its growth may be attributed to some interesting language features and properties, some of which will be mentioned in this note.
+The evolution of programming languages is related to the evolution of development culture, practices, design principles, the software industry and theory in computer science. Kotlin is a relatively new language, and since it was designed by JetBrains in 2011 it has gained widespread adoption, and it is currently integrated into the Android Studio development suite. Its growth may be attributed to some interesting language features and properties, some of which will be mentioned in this note.
 
 # Patterns
 
-In this note, I demonstrate how the [strategy pattern](#strategy-pattern-in-kotlin) and the [singleton pattern](#singleton-pattern-in-kotlin) can be coded in Kotlin. 
+The software development culture has seen a number of design problems occuring time after time. The solutions to these recurrent problems have been referred to as *design patterns* -- a group of design best-practises to a group of common scenarios. In this note, I demonstrate how the [strategy pattern](#strategy-pattern-in-kotlin) and the [singleton pattern](#singleton-pattern-in-kotlin) can be applied in Kotlin. 
 
 ## Strategy Pattern in Kotlin
 
