@@ -40,8 +40,17 @@ observe the highly dynamic features of the solar atmosphere. For
 example, many small-scale changes in the magnetic field (such as
 re-connection) occur too fast to be detectable by former instrumental
 configurations. However, since the Interface Region Imaging
-Spectrograph (IRIS, De Pontieu (2014)) became operational in late
+Spectrograph [1] became operational in late
 2013, its spectrograph has delivered data with higher spatial and
 temporal resolution than ever before.
 
+Type II spicule is likely to play a role in providing hot plasma to
+the corona. While this solar feature has long been considered only a
+minor component in the total heating budget [2], observational evidence from IRIS
+coupled with simulations have caused a revival of the theory of
+spicule-associated heating [3].
+
+[1] De Pontieu, B., (2014), The Interface Region Imaging Spectrograph (IRIS)  
+[2] Klimchuk, J. A., (2012), The role of type II spicules in the upper solar atmosphere  
+[3] De Pontieu, B., (2017), Observations and Numerical Models of Solar Coronal Heating Associated with Spicules.
 
