@@ -13,5 +13,4 @@ permalink: /fieldsofstudy/
 * plasma physics (fluid dynamics, interplanetary plasma, magnetohydrodynamics);
 * astrophysics (solar physics, solar wind)
 * atmospheric physics and near earth space (atmospheric dynamics/dynamic meteorology, exploration of middle atmosphere by remote sensing (LIDAR, meteor-RADAR), geomagnetospheric physics);
-* information- and computer science (numerical programming, high performance computing, computational fluid dynamics).
-
+* information- and computer science (system design, system architecture, design patterns, algorithms).
