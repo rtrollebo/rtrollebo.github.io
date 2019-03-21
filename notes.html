@@ -7,12 +7,16 @@ permalink: /notes/
 
 <div class="home">
 
-  <h1>Notes</h1>
-
   <ul class="posts">
-    {% for post in site.posts %}
+
+    {% assign sorted_posts = site.posts | sort: 'date_updated' | reverse %}
+    
+    {% for post in sorted_posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-date">
+	  {% if post.date_updated %}{{ post.date_updated | date: "%b %-d, %Y" }}
+	  {% endif %}
+	</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	<br>
 	{{ post.abst }}
