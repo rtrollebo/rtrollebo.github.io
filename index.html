@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <ul class="posts">
+
+    <!-- {% assign sorted_posts = site.posts | sort: 'date_updated' | reverse %} -->
+    {% assign sorted_posts = site.posts | sort: 'date_updated' | reverse %}
+    
+    {% for post in sorted_posts limit:1%}
+      <li>
+        <span class="post-date">
+	  {{ post.date | date: "%b %-d, %Y" }}
+	  {% if post.date_updated %} (updated {{ post.date_updated | date: "%b %-d, %Y" }})
+	  {% endif %}
+
+	</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-content"><p><i>{{ post.abst }}</i></p></span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p> <a href="notes/">All Notes &#62 &#62 &#62 &#62</a>
+
+  
+</div>
