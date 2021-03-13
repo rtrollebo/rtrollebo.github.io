@@ -1,9 +1,8 @@
 # Site settings
 title: rtrollebo.github.io
-description: "Notes on mathematical analysis, physics and computer science"
+description: "Notes on mathematical analysis, physics and software engineering"
 baseurl: ""
 url: "github.com/rtrollebo"
-skype_username: trolleboe
 github_username: rtrollebo
 facebook_username: robert.trollebo
 linkedin_username: rtrollebo
