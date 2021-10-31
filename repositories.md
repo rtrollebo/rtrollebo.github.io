@@ -13,4 +13,4 @@ Public documentation archive:
 
 Notes on topics of interest:
 
-[notes.brick.do](http://notes.brick.do)
+[trollebo.brick.do](http://trollebo.brick.do)
