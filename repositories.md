@@ -5,4 +5,4 @@ permalink: /resources/
 
 ---
 
-[https://brick.do/Nwd92pGRZPo1](http://trollebo.brick.do) 
+[trollebo.brick.do](https://brick.do/Nwd92pGRZPo1) 
