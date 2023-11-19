@@ -1,7 +1,8 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Introduction'
-pubDate: 2023-11-13
+created: 2023-11-13
+updated: 
 description: "Introduction to rtrollebo.github.io"
 author: "Robert"
 tags: ["astro"]
