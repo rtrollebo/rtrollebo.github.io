@@ -96,3 +96,7 @@ html.dark {
 .dark .nav-links a {
   color: #fff;
 }
+
+img { 
+  width: 700px; 
+}
