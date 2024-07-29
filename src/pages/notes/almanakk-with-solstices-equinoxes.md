@@ -10,7 +10,7 @@ tags: ["astronomical algorithm", "ephemeris", "solstice", "equinox"]
 ---
 
 Den digitale almanakken 
-[almanakk-cli](http://www.github.com/rtrollebo/almanakk-cli) er no opdatert med vårjamndøgn, haustjamndøgn, sommarsolkverv og vintersolkverv.  
+[almanakk-cli](http://www.github.com/rtrollebo/almanakk-cli) er no oppdatert med vårjamndøgn, haustjamndøgn, sommarsolkverv og vintersolkverv.  
 
 Dermed har programvaren no støtte for:
 
