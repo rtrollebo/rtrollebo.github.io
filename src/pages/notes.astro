@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 const pageTitle = "Notes";
 const allNotes = await Astro.glob("../pages/notes/*.md");
+allNotes.sort((a, b) => Date.parse(b.frontmatter.created) - Date.parse(a.frontmatter.created));
 ---
 
 <BaseLayout pageTitle={pageTitle}>
