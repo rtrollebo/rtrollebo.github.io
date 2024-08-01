@@ -1,12 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Feature from '../layouts/Feature.astro';
 const pageTitle = "rtrollebo.github.io";
+const allNotes = await Astro.glob("../pages/notes/*.md");
+allNotes.sort((a, b) => Date.parse(b.frontmatter.created) - Date.parse(a.frontmatter.created));
+const latestNote = allNotes.at(0)
+const titleOfLatestNote = latestNote?.frontmatter.title
+const description = latestNote?.frontmatter.description
+const urlOfLatestNote = latestNote?.url
 ---
 <BaseLayout pageTitle={pageTitle}>
-  <h2>Trollebø web</h2>
   
   <p>Notes on mathematical analysis, physics and software engineering</p>
 
-  <p>Documentation and software packages: <a href="/documentation">Documentation</a></p>
 
+  <Feature title={titleOfLatestNote} body={description} link={urlOfLatestNote}>
+
+  </Feature>
+
+  <p>Documentation and software packages: <a href="/documentation">Documentation</a></p>
+  
 </BaseLayout>
+
+

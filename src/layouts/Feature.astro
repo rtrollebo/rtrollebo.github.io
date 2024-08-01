@@ -1,0 +1,25 @@
+---
+const { title, link, body } = Astro.props;
+---
+
+
+<style>
+
+    a {
+        font-size: x-large;
+        font-weight: 700;
+        color:rgb(50, 75, 120);
+    }
+
+    a.visited {
+        color:rgb(50, 75, 120);
+    }
+    
+</style>
+
+
+<p>
+    <a href={link}>{title}</a><br>
+    <i>{body}</i>
+</p>
+<p><slot /></p>
