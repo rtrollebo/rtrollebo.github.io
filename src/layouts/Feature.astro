@@ -2,24 +2,50 @@
 const { title, link, body } = Astro.props;
 ---
 
+<script>
+
+const element = document.documentElement;
+const isDark = element.classList.contains("dark");
+const mode = isDark ? "dark" : "light";
+const linkElement = document.getElementById("noteTitle");
+
+if (linkElement !== null) {
+    linkElement.classList.remove('darktheme');
+    linkElement.classList.remove('lighttheme');
+}
+
+if (linkElement !== null) {
+    if (mode === "dark") {
+        console.log("dark mode");
+        linkElement.classList.add('darktheme');
+    } 
+    if (mode === "light") {
+        console.log("light mode");
+        linkElement.classList.add('lighttheme');
+    }
+
+}
+
+</script>
 
 <style>
 
-    a {
+    .lighttheme {
+        color: rgb(50, 75, 120);
         font-size: x-large;
         font-weight: 700;
-        color:rgb(50, 75, 120);
     }
 
-    a.visited {
-        color:rgb(50, 75, 120);
+    .darktheme {
+        color: white
+        font-size: x-large;
+        font-weight: 700;
     }
     
 </style>
 
-
 <p>
-    <a href={link}>{title}</a><br>
+    <a id="noteTitle" href={link}>{title}</a><br>
     <i>{body}</i>
 </p>
 <p><slot /></p>
