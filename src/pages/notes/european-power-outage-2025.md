@@ -8,7 +8,7 @@ author: "Robert"
 tags: ["power-grid", "civil-protection", "readyness"]
 ---
 
-On April 30 at 12:33 p.m. (11:33 BST), a widespread power outage occurred across Spain and Portugal, as well as parts of France. In Spain, major cities such as Madrid and Barcelona were affected, while in Portugal, the capital Lisbon and surrounding areas, as well as the northern and southern regions of the country, experienced disruptions. Power was also cut in southwestern France, but service was restored by mid-afternoon.
+On April 28 at 12:33 p.m. (11:33 BST), a widespread power outage occurred across Spain and Portugal, as well as parts of France. In Spain, major cities such as Madrid and Barcelona were affected, while in Portugal, the capital Lisbon and surrounding areas, as well as the northern and southern regions of the country, experienced disruptions. Power was also cut in southwestern France, but service was restored by mid-afternoon.
 
 The outage impacted hospitals (forcing a switch to emergency power), mobile networks, public transportation systems such as metros and trains, traffic lights, as well as industrial and residential consumers.
 
