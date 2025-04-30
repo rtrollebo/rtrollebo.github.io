@@ -82,4 +82,4 @@ However, without concrete evidence, cyber attacks remain a speculative cause. In
 
 # Final note
 
-The exact cause of the April 30 power outage remains unclear. Reports from grid operators lack detail and are not corroborated by independent experts in electrical engineering or geophysics. More thorough investigation and transparency are needed to learn from incidents like this and to ensure power systems are better prepared for a wide range of internal and external threats.
+The exact cause of the April 28 power outage remains unclear. Reports from grid operators lack detail and are not corroborated by independent experts in electrical engineering or geophysics. More thorough investigation and transparency are needed to learn from incidents like this and to ensure power systems are better prepared for a wide range of internal and external threats.
