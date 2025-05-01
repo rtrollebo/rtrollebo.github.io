@@ -1,8 +1,10 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "The 2025 European Power Outage Incident: day 3 "
+created: 2025-05-01
+updated: 2025-05-01
 description: "Day 3 of the European Power Outage 2025 scenario"
-pubDate: "2025-05-01"
+author: "Robert"
 tags: ["power-grid", "civil-protection", "readyness"]
 ---
 
