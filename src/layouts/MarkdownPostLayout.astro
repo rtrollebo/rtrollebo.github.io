@@ -8,6 +8,16 @@ const { frontmatter } = Astro.props;
 <BaseLayout pageTitle={frontmatter.title}>
   <p>{frontmatter.created.slice(0, 10)} {frontmatter.updated &&  <span>, updated {frontmatter.updated.slice(0, 10)}</span>} </p>
   <p><em>{frontmatter.description}</em></p>
-  <p>Written by: {frontmatter.author}</p>
+  <p>
+    Written by: {frontmatter.author}<br>
+    Keywords: {frontmatter.tags.map((tag:any, index:any) => (
+    <>
+      <a href={`/tags/${tag}`}>{tag}</a>{index < frontmatter.tags.length - 1 ? ", " : ""}
+    </>
+  ))}
+  </p>
+
+
+  
   <slot />
 </BaseLayout>
