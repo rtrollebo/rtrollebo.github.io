@@ -14,11 +14,9 @@ On day 4, there are still no conclusive reports on the cause of the [April 28 ou
 
 Various sources attribute the event to two rapid "disconnection events" in the electrical grid, likely originating in southwestern Spain, specifically Extremadura.  These events led to a loss of about 15 gigawatts of electricity generation—equivalent to 60% of Spain’s power demand at the time—within seconds, triggering a collapse of the Iberian Peninsula’s grid. 
 
-
-
 **Distribution of production and load-supply balance**
 
-While spanish athorities have denied that the countries high reliance on renewable energy production could have contributed to the [April 28 outage](/notes/european-power-outage-2025/), the composition of energy production types might influence the ability to respond to change in demand.
+While spanish athorities have denied that the countries high reliance on renewable energy production could have contributed to the April 28 outage, the composition of energy production types might influence the ability to respond to change in demand. This note investigates further the "System or operational causes" of [the initial note on this topic](/notes/european-power-outage-2025/). 
 
 In the european transmission grid (synchronious interconnected grid), electric power is transferred on nominal frequency on 50Hz. According to ENTSO-E, the frequency must remain within ±0.05 Hz. During normal operation, the grid frequency will fluctuate within this range, based on varying load. A frequency below 50Hz (49.95-50 Hz) means slight under-production, and automatic primary regulation will make sure that additional energy is transferred to generators (from for example turbines) which increases the rotational speed of the generator to compensate for the higher demand. Likewise,  when the frequence is above 50 Hz, generator speed is decreased to enable the electric load to consume excess energy and energy balance between mechanical rotational speed and electric energy is restored. This dynamic regulation is called Frequency Containment Reserve (FCR), or primary reserve, and intervenes within few seconds with activation time within 30 seconds. There are also secondary reserve/aFRR (5min activation time), tertiary reserve/mFRR (12.5 minutes activation time). 
 
@@ -65,4 +63,4 @@ However, this is raw data of unclear origin, and needs to be verified. If the da
 
 **Final note**
 
-We have yet to find verified and quality-assured data on the actual transmission frequency. This might reveal if there were problems with primary regulation before the incident. A study into whether the composition or contribution of the various power plans could have caused the incident. 
+We have not yet found verified and quality-assured data on the actual transmission frequency. Such data might reveal whether there were issues with primary regulation prior to the incident. It would also be relevant to investigate whether the composition or contribution of the various power plants could have contributed to the incident.
