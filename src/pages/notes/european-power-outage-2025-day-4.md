@@ -65,4 +65,4 @@ However, this is raw data of unclear origin, and needs to be verified. If the da
 
 **Final note**
 
-We have yet to find numbers or reports on the actual transmission frequency in the time before the incident. This might reveal if the composition or contribution of the power plans might have played a role in the outage that occured on April 28 in Spain. 
+We have yet to find verified and quality-assured data on the actual transmission frequency. This might reveal if there were problems with primary regulation before the incident. A study into whether the composition or contribution of the various power plans could have caused the incident. 
