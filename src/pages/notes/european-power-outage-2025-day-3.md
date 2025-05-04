@@ -6,6 +6,7 @@ updated: 2025-05-01
 description: "Day 3 of the European Power Outage 2025 scenario"
 author: "Robert"
 tags: ["power-grid", "civil-protection", "readyness"]
+topic: "iberianBlackout"
 ---
 
 **Network Instability Before the Incident**

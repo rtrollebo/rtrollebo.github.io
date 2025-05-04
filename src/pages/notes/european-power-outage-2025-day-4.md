@@ -6,6 +6,7 @@ updated: 2025-05-02
 description: "Day 4: Is the Iberian power production systems properly designed for dynamic regulation?"
 author: "Robert"
 tags: ["power-grid", "civil-protection", "readyness"]
+topic: "iberianBlackout"
 ---
 
 **Official responses**

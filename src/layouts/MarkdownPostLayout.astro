@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
-
+import Topic, { TextType } from '../components/Topic.astro';
 
 ---
 
@@ -16,8 +16,9 @@ const { frontmatter } = Astro.props;
     </>
   ))}
   </p>
-
-
-  
+ 
   <slot />
+  <Topic type={frontmatter.topic} />
+
+
 </BaseLayout>
