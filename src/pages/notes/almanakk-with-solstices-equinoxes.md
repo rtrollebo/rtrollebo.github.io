@@ -7,7 +7,6 @@ updated:
 description: "Nye utrekningar i almanakk: vårjamndøgn, haustjamndøgn, sommarsolkverv, og vintersolkverv"
 author: "Robert"
 tags: ["astronomical algorithm", "ephemeris", "solstice", "equinox"]
-topic: "iberianBlackout"
 ---
 
 Den digitale almanakken 

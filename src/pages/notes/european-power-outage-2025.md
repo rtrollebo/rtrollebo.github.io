@@ -6,7 +6,7 @@ updated: 2025-04-30
 description: "Was the incident caused by an unusual weather event?"
 author: "Robert"
 tags: ["power-grid", "civil-protection", "readyness"]
-topic: "iberianBlackout"
+noteSeries: "iberianBlackout"
 ---
 
 On April 28 at 12:33 p.m. (11:33 BST), a widespread power outage occurred across Spain and Portugal, as well as parts of France. In Spain, major cities such as Madrid and Barcelona were affected, while in Portugal, the capital Lisbon and surrounding areas, as well as the northern and southern regions of the country, experienced disruptions. Power was also cut in southwestern France, but service was restored by mid-afternoon.
