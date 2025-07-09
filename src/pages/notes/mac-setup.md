@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'MacOS Setup for Development'
 created: 2022-10-03
-updated: 2023-11-19
+updated: 2025-07-09
 description: "Checklist for preparing a Mac for development"
 author: "Robert"
 tags: ["macos", "dev", "Sonoma", "Ventura"]
@@ -55,15 +55,17 @@ Homebrew serves most package management requirements: 
 
     The IDE and SDK can be installed through App Store.
 
-    Even if you are not going to build software with Apple product target devices, XCode installation contains essential C compilers (Clang, Apple's gcc) used as dependency for other 3rd party SDKs. 
+    Even if you are not going to build software with Apple product target devices, XCode installation contains essential C compilers (Clang, Apple's gcc) used as dependency for other 3rd party SDKs.  
 
 * Install a general-purpose editor
 
-    I prefer MS Code,
+    Cursor
+
+        brew install —cask cursor
+
+    Or, Visual Studio Code,
 
         brew install —cask visual-studio-code
-
-    but all common editors are available for MacOS as well: emacs, vim, etc.
 
 # Useful Tools
 
@@ -75,7 +77,7 @@ Homebrew serves most package management requirements: 
 
         brew install --cask raycast
 
-* Install the specific purpose IDE (depending on your development needs).
+* Install the specific purpose IDE (depending on your development needs). Consider installing [Jetbrains ToolBox](https://www.jetbrains.com/toolbox-app/) to manage versions instead of homebrew. ()[]
 
     PyCharm (Python), Intellij (Kotlin, Java)
 
@@ -88,3 +90,4 @@ Homebrew serves most package management requirements: 
     To install djview4, `no --cask option` is necessary, since it is a homebrew Formulae:
 
         brew install djview4.
+
