@@ -57,15 +57,19 @@ Homebrew serves most package management requirements: 
 
     Even if you are not going to build software with Apple product target devices, XCode installation contains essential C compilers (Clang, Apple's gcc) used as dependency for other 3rd party SDKs.  
 
-* Install a general-purpose editor
+* Install a general-purpose editor(s)
 
-    Cursor
+    * Cursor
 
-        brew install —cask cursor
+            brew install —cask cursor
 
-    Or, Visual Studio Code,
+    * Visual Studio Code,
 
-        brew install —cask visual-studio-code
+            brew install —cask visual-studio-code
+
+    * Emacs: 
+    
+            brew install —cask emacs-app
 
 # Useful Tools
 
@@ -91,3 +95,12 @@ Homebrew serves most package management requirements: 
 
         brew install djview4.
 
+* Application specific keyboard mapping
+
+    * **Emacs**
+
+        On MacOS meta key is mapped from the Opt key. To make it similar to PC mapping, it is more appropriate to set it at Cmd key.
+
+        Update `~/.emacs` with the following:
+
+            (setq mac-command-modifier 'meta)
