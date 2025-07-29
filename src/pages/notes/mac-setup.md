@@ -73,6 +73,25 @@ Homebrew serves most package management requirements: 
 
 # Useful Tools
 
+* Virtualization and deployment - Docker
+
+    * Orbstack
+
+      Fast, light, and easy way to run Docker containers and Linux. 
+      Can co-exist with docker desktop. List available contexts with `docker context ls`. 
+
+            brew install orbstack
+
+    * Docker desktop
+
+      For complete Docker compatibility on macOS.
+
+            brew install docker-desktop
+
+
+
+
+
 * Install a terminal multiplexer, such as tmux:
 
         brew install tmux
