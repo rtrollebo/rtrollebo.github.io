@@ -23,6 +23,10 @@ Homebrew serves most package management requirements: 
 
     Update `$PATH` to homebrew in .bash_profile (bash) or .zshrc (Z shell) to use homebrew. Also see  https://brew.sh/ for additional information.
 
+    In addition to brew, consider `topgrade`, which manages a wider set of apps (including App Store).
+
+        brew install topgrade
+
 * Setup a shell environment
 
     If Z shell is preferred, install it and enable it 
@@ -123,3 +127,11 @@ Homebrew serves most package management requirements: 
         Update `~/.emacs` with the following:
 
             (setq mac-command-modifier 'meta)
+
+* stats - to monitor CPU, SSD, RAM, etc.
+
+    brew install stats
+
+* zoxide - nice alternative to `cd`
+
+    brew install zoxide
