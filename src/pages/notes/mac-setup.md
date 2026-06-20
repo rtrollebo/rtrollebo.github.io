@@ -96,9 +96,9 @@ Homebrew serves most package management requirements: 
 
 
 
-* Install a terminal multiplexer, such as tmux:
+* Install a terminal multiplexer, such as zellij or tmux:
 
-        brew install tmux
+        brew install zellij
 
 * RayCast (or Alfred), for easier desktop search
 
